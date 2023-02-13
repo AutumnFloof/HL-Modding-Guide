@@ -11,7 +11,7 @@ Simply click "+" next to engine version and find 4.27.2
 
 ![AppScreenshot](https://i.postimg.cc/dtJhB8wY/image.png)
 
-[Fmodel](https://fmodel.app/) For Viewing Game Assets/Paths
+[Fmodel](https://fmodel.app/) For Viewing And Extracting Game Assets/Paths
 
 [Blender 2.83](https://download.blender.org/release/) For Mesh Swaps *I am unsure if newer versions of blender work with the addons needed*
 
@@ -30,3 +30,16 @@ Finally, under project settings ensure you have no starter content selected. Nam
 ![](https://i.postimg.cc/1Rg39JBM/image.png)
 
 # Configuring Unreal Engine
+
+Once your project has loaded up there are a few settings you want to change
+In the top top bar above the scene view, click on `Settings -> Project Settings`
+![](https://i.postimg.cc/wTtGwbHK/image.png)
+
+Under the project tab on the left, select packaging and make sure the following boxes are checked
+``Use Pak File``
+``Use IO Store``
+``Generate Chunks``
+
+![](https://i.postimg.cc/ZqgcvJBC/image.png)
+
+![](https://i.postimg.cc/mg92WwYJ/image.png)
