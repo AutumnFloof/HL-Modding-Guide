@@ -1,1 +1,1 @@
-# HL-Modding-Guide
+#Autumn's Hogwarts Legacys Modding Guide
