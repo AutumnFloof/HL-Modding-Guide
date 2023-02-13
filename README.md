@@ -2,6 +2,8 @@
 
 A (hopefully) comprehensive guide to get you started on modding Hogwarts Legacy.
 
+*WAND MODEL MODDING*
+
 ## Getting Started
 In order to get started modding the game you'll need a few tools which will be linked:
 
@@ -237,3 +239,79 @@ Inside `Wands_Customizable`, make one called `Meshes`
 Finally, drag and drop your fbx into the `Meshes Folder`
 
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/FBX.gif)
+
+Click Import, leave all settings default, and close the smoothing group warning
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/UEImport.png)
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/MSGLog.png)
+
+Delete the material that was imported, then `Force Delete` same for texures, they do not go in the `Meshes` folder, only the `Textures` folder
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Delete.png)
+
+Rename your custom model to `SK_T000`
+
+`Right Click` it, then `Duplicate`, keep duplicating the new ones until there are 8 of them.
+`SK_T000 SK_T001 SK_T002 SK_T003 SK_T004 SK_T005 SK_T006 SK_T007`
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Dupe.gif.gif)
+
+Click Save All -> Save Selected
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/SaveAll.png)
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/SaveSelect.png)
+
+Select all the `SK_` Models, `Right Click` `Asset Actions` `Assign To Chunk` type in `111` for the Chunk ID 
+
+*DO NOT SELECT THE SKELETON, IT IS NOT USED!!*
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Chunk.gif)
+
+Rename your Color Texture to `T_CCL_OlivandersWandBox02B_D` (If you have one)
+
+Rename your Normal Map to `T_CCL_OlivandersWandBox02B_N` (If you have one)
+
+Assign your textures to the same chunk `111` as the `SK_` models
+
+Click Save All -> Save Selected one last time
+
+WE ARE NOT PACKING THE MATERIAL WE MADE OR THE SKELETON
+DO NOT ASSIGN THOSE A CHUNK
+THE SKELETON IS UNUSED AND THE MATERIAL IS JUST A DUMMY REFERENCE FOR OUR MODEL TO USE
+
+## Packaging And Installing Your Mod!
+
+Once you have everything saved go to
+
+`File` -> `Package Project` -> `Build Config` Make Sure `Shipping Is Selected`
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Shipping.gif)
+
+Finally `File` -> `Package Project` -> `Windows 64`
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Packaging.gif)
+
+Select a save location and wait!
+*IF THIS IS THE FIRST TIME YOU ARE USING THE PACKAGE FUNCTION IT WILL TAKE A LONG TIME DEPENDING ON YOUR PC IT WILL BE FASTER AFTER THE VERY FIRST TIME*
+
+## Insatlling The Mod
+
+Once your packaging is done, navigate to the save location and go to `Your\Save\Location\WindowsNoEditor\ProjectName\Content\Paks\`
+Locate the `Pak` `UCAS` `UTOC` Files with chunk `111` only
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/ModFiles.png)
+
+Go to your Hogwarts Legacy Insatll `C:\Program Files (x86)\Steam\steamapps\common\Hogwarts Legacy\Phoenix\Content\Paks\`
+
+Create a folder called `~mods`, place your `Pak` `UCAS` `UTOC` Files with chunk `111` in the `~mods`
+
+Rename them to whatever you want but make sure they're all the same name and end with `_P`
+ex `myMod_P.pak` `myMod_P.ucas` `myMod_P.utoc`
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Saved.png)
+
+## FIN!
+
+If everything 
