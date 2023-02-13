@@ -18,7 +18,7 @@ Simply click "+" next to engine version and find 4.27.2
 [Blender PSK/PSA Importer](https://github.com/Befzz/blender3d_import_psk_psa/)
 
 
-# Creating A New Project
+## Creating A New Project
 
 Start by launching unreal engine and making a new `Games` project
 ![AppScreenshot](https://i.postimg.cc/xCz3QL4C/image.png)
@@ -29,7 +29,7 @@ Use a blank template as we won't actually be using anything in the scene
 Finally, under project settings ensure you have no starter content selected. Name your project, and create project
 ![](https://i.postimg.cc/1Rg39JBM/image.png)
 
-# Configuring Unreal Engine
+## Configuring Unreal Engine
 
 Once your project has loaded up there are a few settings you want to change
 In the top top bar above the scene view, click on `Settings -> Project Settings`
@@ -56,7 +56,7 @@ Under the ``Experimental`` tab, check the box that says ``Allow ChunkID Assignme
 
 ![](https://i.postimg.cc/KvMrw6W2/image.png)
 
-# Using FModel To Extract Base Wand Meshes
+## Setting Up And Loading FModel
 
 Start by opening FModel. You should be greeted with a window that looks like this
 
@@ -72,3 +72,32 @@ Click the blue `+` button and it should move to the top, then press ok. The FMod
 ![](https://i.postimg.cc/PfpdGyQH/image.png)
 
 ![](https://i.postimg.cc/sXWHmM7k/image.png)
+
+On the top left of FModel make sure the box next to `Loading Mode` is set to `All` and then click load
+
+![](https://i.postimg.cc/XY3Z7msd/image.png)
+
+## Extracting Wand Mesh
+
+In Fmodel navigate your way down by double clicking the folders and go all the way down to `Phoenix/Content/RiggedObjects/Props/Wands/Wands_Customizable/Meshes`
+*Note that the paths are in alphabetical order*
+
+![](https://i.postimg.cc/xdfsr9hZ/image.png)
+
+![](https://i.postimg.cc/bYDmfCVq/image.png)
+
+![](https://i.postimg.cc/Nf87QW6v/image.png)
+
+![](https://i.postimg.cc/k4tKzZJZ/image.png)
+
+![](https://i.postimg.cc/TYcmznxR/image.png)
+
+![](https://i.postimg.cc/FHRfwqGZ/image.png)
+
+Double click on `Meshes` and you should see something like this
+
+![](https://i.postimg.cc/fLwQr4fW/image.png)
+
+Right click on `SK_T000` then select `Save Model (psk)`
+
+![](https://i.postimg.cc/9QYhtFyg/image.png)
