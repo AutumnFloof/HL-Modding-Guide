@@ -28,7 +28,7 @@ Start by launching unreal engine and making a new `Games` project
 Use a blank template as we won't actually be using anything in the scene
 ![AppScreenshot](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/3.png)
 
-Finally, under project settings ensure you have no starter content selected. Name your project, and create project
+Finally, under project settings ensure you have no starter content selected. Name your project `Phoenix`, and create project
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/4.png)
 
 ## Configuring Unreal Engine
