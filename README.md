@@ -138,7 +138,7 @@ Drop down SK_T000
 
 ## Parenting The Armature And Weight Painting The Mesh
 
-Next well parent the armature to the mesh and weight paint it that way the new model can move in game
+Next we'll parent the armature to the mesh and weight paint it that way the new model can move in game
 
 The first thing is `Select Only Your New Mesh` then `Hold Shift` -> `Click One Of The Bones` -> Press `Ctrl P` -> `Select Armature Deform`
 
@@ -187,3 +187,53 @@ Click `The Bottom Bone` then press `R` to rotate the bone, if done correctly, *e
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/BottomBone.gif)
 
 Congrats! You have weight painted your new mesh to the wand's armature so it can actually move in game!
+
+## Exporting The Model
+
+Once all the steps are done, and your mesh looks good, go to `File -> Export -> FBX`
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Export.gif)
+
+Before clicking export, make sure to UNCHECK `Bake Animation` and UNCHECK `Add Leaf Bones`
+
+![]([Settings.gif](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Settings.gif))
+
+## Unreal Folder Structure And Importing
+
+Back in unreal engine, make sure you are in the `content` folder, and make a new folder called `Cinematics`
+
+Inside `Cinematics`, new folder called `Props`
+
+Inside `Props`, new folder called `Materials` and one called `Textures`
+
+your structure should look like this
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Structure.png)
+
+This next bit is a bit complex so I won't go into too much detail, but basically, we're gonna tell our custom wand to use the material from Ollivander's Wand Box from the start of the game. In order to do that, we're gonna tell our model to use that material by creating a "Dummy" reference.
+
+In the `Materials` folder, `Right Click`, create a material called `MI_CCL_OlivandersWandBox02B`
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Mat.gif)
+
+Now in the textures folder, Import all your model's `Color` and `Normal` texture by dragging and dropping them
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Text.gif)
+
+Finally go back to content and we're gonna make some new folders
+
+Next to the `Cinematics` folder, make one called `RiggedObjects`
+
+Inside `RiggedObjects`, make one called `Props`
+
+Inside `Props`, make one called `Wands`
+
+Inside `Wands`, make one called `Wands_Customizable`
+
+Inside `Wands_Customizable`, make one called `Meshes`
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Structure.gif)
+
+Finally, drag and drop your fbx into the `Meshes Folder`
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/FBX.gif)
