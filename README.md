@@ -146,9 +146,42 @@ The first thing is `Select Only Your New Mesh` then `Hold Shift` -> `Click One O
 
 The new mesh should now be under the armature
 
-![](29.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/29.png)
 
 Next is to do the opposit and `Select Only The One Of The Bones` then `Hold Shift` -> `Click The Mesh` -> `Switch From Object Mode To Weight Paint`
 
-~![](Painting.gif)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/WeightMode.gif)
 
+`Control Click` the top bone to select it and then make sure the entire mesh is `Blue`, Press `R` to rotate the bone and make sure NOTHING moves and then press `Escape` to cancel the rotation
+
+![](Rotation.gif)
+
+If anything moves with the top bone, change the brush to `subtract` and remove any `Red/Orange/Yellow` color on your mesh
+
+![](Subtract.gif)
+
+Now `Control Click` the second bone and make sure your brush is on `Add` and paint the entire mesh `Red`
+
+![](Painting.gif)
+
+*Keep adding until your entire mesh looks red*
+
+![](30.png)
+
+Switch Back To `Object Mode` and select ``Only The Armature``
+
+![](ObjectMode.gif)
+
+![](31.png)
+
+Then to `Pose Mode`
+
+![](PoseMode.gif)
+
+Click `The Top Bone` then press `R` to rotate the bone, if done correctly, *nothing* should move. press `Escape` to cancel rotation
+
+Click `The Bottom Bone` then press `R` to rotate the bone, if done correctly, *everything should move. press `Escape` to cancel rotation
+
+![](TopBone.gif)
+
+![](BottomBone.gif)
