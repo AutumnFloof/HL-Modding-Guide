@@ -21,13 +21,13 @@ Simply click "+" next to engine version and find 4.27.2
 ## Creating A New Project
 
 Start by launching unreal engine and making a new `Games` project
-![AppScreenshot]([https://i.postimg.cc/xCz3QL4C/image.png](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/2.png))
+![AppScreenshot](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/2.png)
 
 Use a blank template as we won't actually be using anything in the scene
-![AppScreenshot]([https://i.postimg.cc/L5vYFX25/image.png](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/3.png))
+![AppScreenshot](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/3.png)
 
 Finally, under project settings ensure you have no starter content selected. Name your project, and create project
-![]([https://i.postimg.cc/1Rg39JBM/image.png](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/4.png))
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/4.png)
 
 ## Configuring Unreal Engine
 
