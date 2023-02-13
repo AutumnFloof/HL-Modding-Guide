@@ -43,3 +43,18 @@ Under the project tab on the left, select packaging and make sure the following 
 ![](https://i.postimg.cc/ZqgcvJBC/image.png)
 
 ![](https://i.postimg.cc/mg92WwYJ/image.png)
+
+You can close out of the `project settings` window
+
+Lastly head over to edit on the top left corner next to file, and click ``Edit -> Editor Preferences`` 
+
+![](https://i.postimg.cc/cJqzP7hD/image.png)
+
+Under the ``Experimental`` tab, check the box that says ``Allow ChunkID Assignments``
+
+![](https://i.postimg.cc/m2vVrL9k/image.png)
+
+![](https://i.postimg.cc/KvMrw6W2/image.png)
+
+# Using FModel To Extract Base Wand Meshes
+
