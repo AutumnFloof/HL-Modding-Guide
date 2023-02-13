@@ -196,7 +196,7 @@ Once all the steps are done, and your mesh looks good, go to `File -> Export -> 
 
 Before clicking export, make sure to UNCHECK `Bake Animation` and UNCHECK `Add Leaf Bones`
 
-![]([Settings.gif](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Settings.gif))
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Settings.gif)
 
 ## Unreal Folder Structure And Importing
 
