@@ -108,4 +108,30 @@ Open up blender and ensure you have the PSK Importer installed. Link for the dow
 In Blender go to delete everything in your scene and import the psk file
 `File -> Import -> Sekelton Mesh (psk)`
 
-![](https://i.postimg.cc/1z0b1WvW/image.png)
+![](https://i.postimg.cc/HLWFHwFd/image.png)
+
+Your PSK file will be located where you selected to save it in FModel: {yourlocation}\Game\RiggedObjects\Props\Wands\Wands_Customizable\Meshes\SK_T000_LOD0.psk
+
+The Wand WILL be small, this is normal, and you will want to scale your custom model downto the size of the wand to get it somewhat proportional to the player model
+
+![](https://i.postimg.cc/hPfj4xW8/image.png)
+
+The next step is to import your own custom model. This can be whatever your imagination can think of ;)
+
+Make sure to scale it down move, rotate it to roughly match the wand mesh size
+
+![](https://i.postimg.cc/XYPDMRKc/image.png)
+
+The top bone is from where the spell casts originate from, and the bottom bone is the handle. *Untested, but perhaps moving the top bone will allow you to change the spell cast positions for odd shaped items like guns?*
+
+Next step is to delete the original wand mesh and add your new mesh to the wand's armature.
+
+In the top right of blender you have your `Scene Collection/Hierarchy`
+
+Drop down SK_T000 
+
+![](https://i.postimg.cc/fLqV5vQL/image.png)
+
+`Right Click -> Delete` on `SK_T000_LOD0.mo`
+
+![](https://i.postimg.cc/HnQVH17J/image.png)
