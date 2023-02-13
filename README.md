@@ -9,7 +9,7 @@ Unreal Engine 4.27.2: as of the time of writing, this can be found in the [Epic 
 
 Simply click "+" next to engine version and find 4.27.2
 
-![AppScreenshot](https://i.postimg.cc/dtJhB8wY/image.png)
+![AppScreenshot](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/1.png)
 
 [Fmodel](https://fmodel.app/) For Viewing And Extracting Game Assets/Paths
 
@@ -21,86 +21,86 @@ Simply click "+" next to engine version and find 4.27.2
 ## Creating A New Project
 
 Start by launching unreal engine and making a new `Games` project
-![AppScreenshot](https://i.postimg.cc/xCz3QL4C/image.png)
+![AppScreenshot]([https://i.postimg.cc/xCz3QL4C/image.png](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/2.png))
 
 Use a blank template as we won't actually be using anything in the scene
-![AppScreenshot](https://i.postimg.cc/L5vYFX25/image.png)
+![AppScreenshot]([https://i.postimg.cc/L5vYFX25/image.png](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/3.png))
 
 Finally, under project settings ensure you have no starter content selected. Name your project, and create project
-![](https://i.postimg.cc/1Rg39JBM/image.png)
+![]([https://i.postimg.cc/1Rg39JBM/image.png](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/4.png))
 
 ## Configuring Unreal Engine
 
 Once your project has loaded up there are a few settings you want to change
 In the top top bar above the scene view, click on `Settings -> Project Settings`
-![](https://i.postimg.cc/wTtGwbHK/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/5.png)
 
 Under the project tab on the left, select packaging and make sure the following boxes are checked
 ``Use Pak File``
 ``Use IO Store``
 ``Generate Chunks``
 
-![](https://i.postimg.cc/ZqgcvJBC/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/6.png)
 
-![](https://i.postimg.cc/mg92WwYJ/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/7.png)
 
 You can close out of the `project settings` window
 
 Lastly head over to edit on the top left corner next to file, and click ``Edit -> Editor Preferences`` 
 
-![](https://i.postimg.cc/cJqzP7hD/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/8.png)
 
 Under the ``Experimental`` tab, check the box that says ``Allow ChunkID Assignments``
 
-![](https://i.postimg.cc/m2vVrL9k/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/9.png)
 
-![](https://i.postimg.cc/KvMrw6W2/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/10.png)
 
 ## Setting Up And Loading FModel
 
 Start by opening FModel. You should be greeted with a window that looks like this
 
-![](https://i.postimg.cc/1zq83Spm/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/11.png)
 
 Click the arrows above ``Add Undetected Game`` and fill in whatever name you like, and then add the path to your game's PAK folder
 *generally `C:\Program Files (x86)\Steam\steamapps\common\Hogwarts Legacy\Phoenix\Content\Paks`*
 
-![](https://i.postimg.cc/XJx4V1DN/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/12.png)
 
 Click the blue `+` button and it should move to the top, then press ok. The FModel window will now open
 
-![](https://i.postimg.cc/PfpdGyQH/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/13.png)
 
-![](https://i.postimg.cc/sXWHmM7k/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/14.png)
 
 On the top left of FModel make sure the box next to `Loading Mode` is set to `All` and then click load
 
-![](https://i.postimg.cc/XY3Z7msd/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/15.png)
 
 ## Extracting Wand Mesh
 
 In Fmodel navigate your way down by double clicking the folders and go all the way down to `Phoenix/Content/RiggedObjects/Props/Wands/Wands_Customizable/Meshes`
 *Note that the paths are in alphabetical order*
 
-![](https://i.postimg.cc/xdfsr9hZ/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/16.png)
 
-![](https://i.postimg.cc/bYDmfCVq/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/17.png)
 
-![](https://i.postimg.cc/Nf87QW6v/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/18.png)
 
-![](https://i.postimg.cc/k4tKzZJZ/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/19.png)
 
-![](https://i.postimg.cc/TYcmznxR/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/20.png)
 
-![](https://i.postimg.cc/FHRfwqGZ/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/21.png)
 
 Double click on `Meshes` and you should see something like this
 
-![](https://i.postimg.cc/fLwQr4fW/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/22.png)
 
 Right click on `SK_T000` then select `Save Model (psk)`
 
-![](https://i.postimg.cc/9QYhtFyg/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/23.png)
 
 ## Swapping The Mesh In Blender
 
@@ -108,19 +108,19 @@ Open up blender and ensure you have the PSK Importer installed. Link for the dow
 In Blender go to delete everything in your scene and import the psk file
 `File -> Import -> Sekelton Mesh (psk)`
 
-![](https://i.postimg.cc/HLWFHwFd/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/24.png)
 
 Your PSK file will be located where you selected to save it in FModel: {yourlocation}\Game\RiggedObjects\Props\Wands\Wands_Customizable\Meshes\SK_T000_LOD0.psk
 
 The Wand WILL be small, this is normal, and you will want to scale your custom model downto the size of the wand to get it somewhat proportional to the player model
 
-![](https://i.postimg.cc/hPfj4xW8/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/25.png)
 
 The next step is to import your own custom model. This can be whatever your imagination can think of ;)
 
 Make sure to scale it down move, rotate it to roughly match the wand mesh size
 
-![](https://i.postimg.cc/XYPDMRKc/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/26.png)
 
 The top bone is from where the spell casts originate from, and the bottom bone is the handle. *Untested, but perhaps moving the top bone will allow you to change the spell cast positions for odd shaped items like guns?*
 
@@ -130,9 +130,16 @@ In the top right of blender you have your `Scene Collection/Hierarchy`
 
 Drop down SK_T000 
 
-![](https://i.postimg.cc/fLqV5vQL/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/27.png)
 
 `Right Click -> Delete` on `SK_T000_LOD0.mo`
 
-![](https://i.postimg.cc/HnQVH17J/image.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/28.png)
 
+## Parenting The Armature And Weight Painting The Mesh
+
+Next well parent the armature to the mesh and weight paint it that way the new model can move in game
+
+The first thing is select only your new mesh then `Hold Shift` -> `Click One Of The Bones` -> Press `Ctrl P` -> `Select Armature Deform`
+
+[]()
