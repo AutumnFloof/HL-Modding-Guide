@@ -135,3 +135,4 @@ Drop down SK_T000
 `Right Click -> Delete` on `SK_T000_LOD0.mo`
 
 ![](https://i.postimg.cc/HnQVH17J/image.png)
+
