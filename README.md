@@ -140,6 +140,15 @@ Drop down SK_T000
 
 Next well parent the armature to the mesh and weight paint it that way the new model can move in game
 
-The first thing is select only your new mesh then `Hold Shift` -> `Click One Of The Bones` -> Press `Ctrl P` -> `Select Armature Deform`
+The first thing is `Select Only Your New Mesh` then `Hold Shift` -> `Click One Of The Bones` -> Press `Ctrl P` -> `Select Armature Deform`
 
-[](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Parenting.gif)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Parenting.gif)
+
+The new mesh should now be under the armature
+
+![](29.png)
+
+Next is to do the opposit and `Select Only The One Of The Bones` then `Hold Shift` -> `Click The Mesh` -> `Switch From Object Mode To Weight Paint`
+
+~![](Painting.gif)
+
