@@ -101,3 +101,7 @@ Double click on `Meshes` and you should see something like this
 Right click on `SK_T000` then select `Save Model (psk)`
 
 ![](https://i.postimg.cc/9QYhtFyg/image.png)
+
+## Swapping The Mesh In Blender
+
+Open up blender and ensure you have the PSK Importer installed. Link for that along with install instructions are at the start of the guide
