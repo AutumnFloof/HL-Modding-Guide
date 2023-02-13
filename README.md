@@ -58,3 +58,17 @@ Under the ``Experimental`` tab, check the box that says ``Allow ChunkID Assignme
 
 # Using FModel To Extract Base Wand Meshes
 
+Start by opening FModel. You should be greeted with a window that looks like this
+
+![](https://i.postimg.cc/1zq83Spm/image.png)
+
+Click the arrows above ``Add Undetected Game`` and fill in whatever name you like, and then add the path to your game's PAK folder
+*generally `C:\Program Files (x86)\Steam\steamapps\common\Hogwarts Legacy\Phoenix\Content\Paks`*
+
+![](https://i.postimg.cc/XJx4V1DN/image.png)
+
+Click the blue `+` button and it should move to the top, then press ok. The FModel window will now open
+
+![](https://i.postimg.cc/PfpdGyQH/image.png)
+
+![](https://i.postimg.cc/sXWHmM7k/image.png)
