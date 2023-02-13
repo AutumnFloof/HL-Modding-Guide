@@ -212,12 +212,6 @@ your structure should look like this
 
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Structure.png)
 
-This next bit is a bit complex so I won't go into too much detail, but basically, we're gonna tell our custom wand to use the material from Ollivander's Wand Box from the start of the game. In order to do that, we're gonna tell our model to use that material by creating a "Dummy" reference.
-
-In the `Materials` folder, `Right Click`, create a material called `MI_CCL_OlivandersWandBox02B`
-
-![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Mat.gif)
-
 Now in the textures folder, Import all your model's `Color` and `Normal` texture by dragging and dropping them
 
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Text.gif)
@@ -246,9 +240,8 @@ Click Import, leave all settings default, and close the smoothing group warning
 
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/MSGLog.png)
 
-Delete the material that was imported, then `Force Delete` same for texures, they do not go in the `Meshes` folder, only the `Textures` folder
-
-![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Delete.png)
+This next bit is a bit complex so I won't go into too much detail, but basically, we're gonna tell our custom wand to use the material from Ollivander's Wand Box from the start of the game. In order to do that, we're gonna tell our model to use that material by creating a "Dummy" reference.
+Drag Your Material Into The Materials Folder Created Earlier And Name It `MI_CCL_OlivandersWandBox02B`
 
 Rename your custom model to `SK_T000`
 
@@ -314,4 +307,16 @@ ex `myMod_P.pak` `myMod_P.ucas` `myMod_P.utoc`
 
 ## FIN!
 
-If everything 
+If everything was done correctly (and I didn't screw up this guide) you shoud be able to launch the game and enjoy your custom wand! Make sure you have no handle equipped as this process replaces all base wands!
+
+Big shoutout to the Hogwarts Legacy Modding Community Discord for all the idea and encouragment to make this guide possible!
+
+Join Here For More Mods And An Awesome Community!
+
+discord.gg/hogwartsmodding
+
+## In Game Shots
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Screenshot_49.png)
+
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Screenshot_2023-02-12_111200.png)
