@@ -104,4 +104,8 @@ Right click on `SK_T000` then select `Save Model (psk)`
 
 ## Swapping The Mesh In Blender
 
-Open up blender and ensure you have the PSK Importer installed. Link for that along with install instructions are at the start of the guide
+Open up blender and ensure you have the PSK Importer installed. Link for the download and install instructions are at the [start](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/README.md#getting-started) of the guide.
+In Blender go to delete everything in your scene and import the psk file
+`File -> Import -> Sekelton Mesh (psk)`
+
+![](https://i.postimg.cc/1z0b1WvW/image.png)
