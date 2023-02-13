@@ -142,4 +142,4 @@ Next well parent the armature to the mesh and weight paint it that way the new m
 
 The first thing is select only your new mesh then `Hold Shift` -> `Click One Of The Bones` -> Press `Ctrl P` -> `Select Armature Deform`
 
-[]()
+[](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Parenting.gif)
