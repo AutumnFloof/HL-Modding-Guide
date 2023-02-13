@@ -154,34 +154,36 @@ Next is to do the opposit and `Select Only The One Of The Bones` then `Hold Shif
 
 `Control Click` the top bone to select it and then make sure the entire mesh is `Blue`, Press `R` to rotate the bone and make sure NOTHING moves and then press `Escape` to cancel the rotation
 
-![](Rotation.gif)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Rotation.gif)
 
 If anything moves with the top bone, change the brush to `subtract` and remove any `Red/Orange/Yellow` color on your mesh
 
-![](Subtract.gif)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Subtract.gif)
 
 Now `Control Click` the second bone and make sure your brush is on `Add` and paint the entire mesh `Red`
 
-![](Painting.gif)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Painting.gif)
 
 *Keep adding until your entire mesh looks red*
 
-![](30.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/30.png)
 
 Switch Back To `Object Mode` and select ``Only The Armature``
 
-![](ObjectMode.gif)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/ObjectMode.gif)
 
-![](31.png)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/31.png)
 
 Then to `Pose Mode`
 
-![](PoseMode.gif)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/PoseMode.gif)
 
 Click `The Top Bone` then press `R` to rotate the bone, if done correctly, *nothing* should move. press `Escape` to cancel rotation
 
-Click `The Bottom Bone` then press `R` to rotate the bone, if done correctly, *everything should move. press `Escape` to cancel rotation
+Click `The Bottom Bone` then press `R` to rotate the bone, if done correctly, *everything* should move. press `Escape` to cancel rotation
 
-![](TopBone.gif)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/TopBone.gif)
 
-![](BottomBone.gif)
+![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/BottomBone.gif)
+
+Congrats! You have weight painted your new mesh to the wand's armature so it can actually move in game!
