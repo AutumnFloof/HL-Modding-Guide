@@ -313,7 +313,7 @@ Big shoutout to the Hogwarts Legacy Modding Community Discord for all the idea a
 
 Join Here For More Mods And An Awesome Community!
 
-[Hogwarts Legacy Modding Community Discord](discord.gg/hogwartsmodding)
+[Hogwarts Legacy Modding Community Discord](https://discord.gg/hogwartsmodding)
 
 ## In Game Shots
 
