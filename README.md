@@ -309,11 +309,7 @@ ex `myMod_P.pak` `myMod_P.ucas` `myMod_P.utoc`
 
 If everything was done correctly (and I didn't screw up this guide) you shoud be able to launch the game and enjoy your custom wand! Make sure you have no handle equipped as this process replaces all base wands!
 
-Big shoutout to the Hogwarts Legacy Modding Community Discord for all the idea and encouragment to make this guide possible!
-
-Join Here For More Mods And An Awesome Community!
-
-[Hogwarts Legacy Modding Community Discord](https://discord.gg/hogwartsmodding)
+Edit: Discord erver was nuked overnight. Have no idea why
 
 ## In Game Shots
 
