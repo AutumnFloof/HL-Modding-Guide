@@ -310,7 +310,7 @@ ex `myMod_P.pak` `myMod_P.ucas` `myMod_P.utoc`
 If everything was done correctly (and I didn't screw up this guide) you shoud be able to launch the game and enjoy your custom wand! Make sure you have no handle equipped as this process replaces all base wands!
 
 Edit: Discord erver was nuked overnight. Have no idea why
-
+[Link to new server](https://discord.gg/wPakvVpSNF)
 ## In Game Shots
 
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Screenshot_49.png)
