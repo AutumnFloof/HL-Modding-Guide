@@ -17,7 +17,7 @@ Simply click "+" next to engine version and find 4.27.2
 
 [Blender 2.83](https://download.blender.org/release/) For Mesh Swaps *I am unsure if newer versions of blender work with the addons needed*
 
-[Blender PSK/PSA Importer](https://github.com/Befzz/blender3d_import_psk_psa/)
+[Blender PSK/PSA Importer](https://github.com/matyalatte/blender3d_import_psk_psa/)
 
 
 ## Creating A New Project
