@@ -256,8 +256,8 @@ Click Save All -> Save Selected
 
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/SaveSelect.png)
 
-Select all the `SK_` Models, `Right Click` `Asset Actions` `Assign To Chunk` type in `111` for the Chunk ID 
-
+Select all the `SK_` Models, `Right Click` `Asset Actions` `Assign To Chunk` type in `any chunk above 19` for the Chunk ID
+I'll be using 111 but this may cause issues with other mods using the same chunk.
 *DO NOT SELECT THE SKELETON, IT IS NOT USED!!*
 
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Chunk.gif)
@@ -310,7 +310,8 @@ ex `myMod_P.pak` `myMod_P.ucas` `myMod_P.utoc`
 If everything was done correctly (and I didn't screw up this guide) you shoud be able to launch the game and enjoy your custom wand! Make sure you have no handle equipped as this process replaces all base wands!
 
 Edit: Discord erver was nuked overnight. Have no idea why
-[Link to new server](https://discord.gg/wPakvVpSNF)
+[Link To New Server](https://discord.gg/wPakvVpSNF)
+[Link To Nexus Legacy Modding Server](https://discord.gg/HogwartsLegacyMods)
 ## In Game Shots
 
 ![](https://github.com/AutumnFloof/HL-Modding-Guide/blob/main/Img/Screenshot_49.png)
